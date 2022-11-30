@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './_pages/dashboard/dashboard.component';
+import { MessagerieComponent } from './messagerie/messagerie.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
     HeaderComponent,
-    DashboardComponent
+    DashboardComponent,
+    MessagerieComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

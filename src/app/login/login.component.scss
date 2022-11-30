@@ -1,0 +1,157 @@
+.login{
+display: flex;
+
+    .image_bateau{
+        width: 984px;
+        height: 100vh;
+    }
+
+    .interface{
+        display: flex;
+        margin-left: 1em;
+        margin-top: 2em;
+    }
+
+    .logo_unicorn{
+        width: 48px;
+        height: 48px;
+        margin-right: 1em;
+    }
+
+    .title_nice{
+        margin-left: 1em;
+    }
+
+    .login_password{
+        margin-left: 2em;
+    }
+
+    .formulaire{
+        width: 100%;
+        height: 3em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        background-color: #E5E5E5;
+        border-radius: 6px;
+        border: none;
+    }
+
+    .remember_forgot{
+        display: flex;
+        margin-left: 2em;
+    }
+
+    .right_left{
+        width: 40px;
+        height: 20px;
+        border-radius: 36px;
+        margin-top: 1em;
+        margin-right: 1em;
+    }
+
+    .forgot_password{
+        color: #007AFF;
+        margin-left: 10em;
+        border: none;
+        margin-top: 1em;
+    }
+
+
+    .sign{
+        background-color: #007AFF;
+        color: white;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 40px;
+        margin-top: 2em;
+        margin-left: 2em;
+        border: none;
+    }
+
+    .sign_google{
+        background-color: #333333;
+        color: white;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 40px;
+        margin-top: 5em;
+        margin-left: 2em;
+    }
+
+    .no_account{
+        display: flex;
+        margin-left: 6em;
+    }
+
+    .blue_sign_up{
+        margin-top: 1em;
+        margin-left: 1em;
+        letter-spacing: 0.3px;
+        color: #007AFF;
+    }
+
+
+
+
+    @media (max-width: 426px){
+
+        .image_bateau{
+            display: none;
+        }
+        
+        .title_nice{
+
+            margin-left: 0.5em;
+        }
+        
+        .formulaire{
+            width: 90%;
+        }
+
+        .forgot_password{
+            margin-left: 2em;
+        }
+
+        .sign{
+            margin-left: 2em;
+            width: 85%;
+            
+        }
+
+        .sign_google{
+            margin-left: 2em;
+            width: 85%;
+            
+        }
+
+        .random{
+            display: none;
+        }
+        
+        .formulaire{
+            margin-top: 1em;
+        }
+
+        .interface{
+            justify-content: center;
+        }
+
+        .no_account{
+            margin-left: 4em;
+        }
+        
+        
+
+
+    }
+
+}
+
+
+
