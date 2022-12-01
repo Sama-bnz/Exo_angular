@@ -3,31 +3,16 @@
         <img class="image_bateau" src="assets/images/login/bateau.png" alt="bateau">
 
     <form>
-        <div class="interface">
-            <img class="logo_unicorn" src="assets/images/login/icone_unicorn.png" alt="icone_unicorn">
-            <h2>UI Unicorn</h2>
-        </div>
+        
+        <app-interface></app-interface>
 
         <h1 class="title_nice">Nice to see you again</h1>
 
-        <div class="login_password">
-            <label class="random">Login</label>
-            <input class="formulaire" type="number" placeholder="Email or phone number">
-            <div class="input-wrapper">
-                <label class="random">Password</label>
-                <input class="formulaire" type="password" placeholder="Enter password">
-            </div>
-        </div>
+        <app-connexion></app-connexion>
 
-        <div class="remember_forgot">
-            <img class="right_left" src="/assets/images/login/default.png" alt="default">
-            <p>Remember me</p>
-            <a href="sign" class="forgot_password">Forgot password ?</a>
-        </div>
+        <app-checkbox></app-checkbox>
         
-        <button class="sign" type="submit" name="submit">Sign in</button>
-
-        <button class="sign_google" type="submit" name="submit_google">Or sign with google</button>
+        <app-button-sign></app-button-sign>
 
         <div class="no_account">
             <p>Don't have an account?</p>

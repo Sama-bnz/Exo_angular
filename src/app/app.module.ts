@@ -8,6 +8,10 @@ import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './_pages/dashboard/dashboard.component';
 import { MessagerieComponent } from './messagerie/messagerie.component';
 import { LoginComponent } from './login/login.component';
+import { InterfaceComponent } from './interface/interface.component';
+import { ConnexionComponent } from './connexion/connexion.component';
+import { CheckboxComponent } from './checkbox/checkbox.component';
+import { ButtonSignComponent } from './button-sign/button-sign.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { LoginComponent } from './login/login.component';
     HeaderComponent,
     DashboardComponent,
     MessagerieComponent,
-    LoginComponent
+    LoginComponent,
+    InterfaceComponent,
+    ConnexionComponent,
+    CheckboxComponent,
+    ButtonSignComponent
   ],
   imports: [
     BrowserModule,
