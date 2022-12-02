@@ -12,6 +12,9 @@ import { InterfaceComponent } from './interface/interface.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { ButtonSignComponent } from './button-sign/button-sign.component';
+import { InputComponent } from './_composants/input/input.component';
+import { LoginFormComponent } from './login/login-form/login-form.component';
+import { RegisterFormComponent } from './login/register-form/register-form.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { ButtonSignComponent } from './button-sign/button-sign.component';
     InterfaceComponent,
     ConnexionComponent,
     CheckboxComponent,
-    ButtonSignComponent
+    ButtonSignComponent,
+    InputComponent,
+    LoginFormComponent,
+    RegisterFormComponent
   ],
   imports: [
     BrowserModule,

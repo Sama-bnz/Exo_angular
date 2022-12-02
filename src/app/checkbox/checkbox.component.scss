@@ -30,11 +30,25 @@ input.apple-switch {
 
     .remember_forgot{
         display: flex;
-        margin-left: 2em;
+        margin-bottom: 1em;
     }
     
     .forgot_password{
         color: #007AFF;
-        margin-left: 10em;
+        margin-left: 12em;
         border: none;
+    }
+
+    @media (max-width: 426px){
+
+        label{
+            margin-top: 0.2em;
+        }
+        .forgot_password{
+            margin-left: 7.2em;
+            margin-top: 0.2em;
+        }
+
+
+
     }

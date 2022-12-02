@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./button-sign.component.scss']
 })
 export class ButtonSignComponent {
-
+  
 }

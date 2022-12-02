@@ -1,32 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .login{
 display: flex;
+margin: 0;
+padding: 0;
 
     .image_bateau{
-        width: 984px;
+        flex: 7;
         height: 100vh;
     }
-
     
-
-    .title_nice{
-        margin-left: 1em;
-    }
-
-
-    
-
-    .no_account{
+    .formulaire{
+        flex: 4;
         display: flex;
-        margin-left: 6em;
+        flex-direction: column;
+        padding: .5em 3em;
+
     }
 
-    .blue_sign_up{
+    .connexion{
         margin-top: 1em;
-        margin-left: 1em;
-        letter-spacing: 0.3px;
-        color: #007AFF;
     }
-
+    
+    .title_nice{
+        font-family:'Poppins', sans-serif;
+        margin-left: 1em;
+    }
 
 
 
@@ -43,22 +42,6 @@ display: flex;
         
         .formulaire{
             width: 90%;
-        }
-
-        .forgot_password{
-            margin-left: 2em;
-        }
-
-        .sign{
-            margin-left: 2em;
-            width: 85%;
-            
-        }
-
-        .sign_google{
-            margin-left: 2em;
-            width: 85%;
-            
         }
 
         .random{
