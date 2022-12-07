@@ -15,6 +15,7 @@ import { ButtonSignComponent } from './button-sign/button-sign.component';
 import { InputComponent } from './_composants/input/input.component';
 import { LoginFormComponent } from './login/login-form/login-form.component';
 import { RegisterFormComponent } from './login/register-form/register-form.component';
+import { ForgotPasswordComponent } from './login/forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RegisterFormComponent } from './login/register-form/register-form.compo
     ButtonSignComponent,
     InputComponent,
     LoginFormComponent,
-    RegisterFormComponent
+    RegisterFormComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,

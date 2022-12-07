@@ -1,6 +1,8 @@
-<button class="sign" type="submit" name="submit">Sign in</button>
+<button class="sign" [type]="type" name="submit"> 
+    <ng-content></ng-content>
+</button>
 
-<button class="sign_google" type="submit" name="submit_google">Or sign with google</button>
+<!-- <button class="sign_google" type="submit" name="submit_google">Or sign with google</button> -->
 
 <!-- <input #LoginInput [type]="type" [id]="id" [name]="name" [placeholder]="placeholder"> -->
 

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-button-sign',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./button-sign.component.scss']
 })
 export class ButtonSignComponent {
-  
+
+
+@Input() 
+type!: string;
+
 }
+
