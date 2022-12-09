@@ -5,7 +5,7 @@
 
 .no_account{
     display: flex;
-    margin-left: 6em;
+    margin-left: 9em;
 }
 
 .blue_sign_up{
@@ -26,13 +26,29 @@
     height: 40px;
     margin-top: 5em;
     margin-left: 0.2em;
+    gap: 5px;
+}
+
+.end_page{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.figma{
+    display: flex;
+}
+
+.unicorn{
+    text-decoration: none;
 }
 
 @media screen and (max-width: 426px){
 
     .sign_google{
-        margin-left: 1.6em;
-        width: 85%;
+        width: 100%;
     }
 
     .no_account{
