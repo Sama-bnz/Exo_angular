@@ -1,14 +1,14 @@
 <div class="register">
     <h1 class="title_nice">Create account</h1>
 
-    <app-input #InputLogin label="Name" type="text" name="Name" placeholder="Your Name"></app-input>
-    <app-input #InputLogin label="Birthday" type="date" name="Birthday" placeholder="Email"></app-input>
-    <app-input #InputLogin label="ID" type="text" name="Login" placeholder="Email"></app-input>
-    <app-input #InputPassword label="Password" type="password" name="password" placeholder="Enter password"></app-input>
-    <app-input #InputPassword label="RepeatPassword" type="password" name="Repeatpassword" placeholder="Enter password"></app-input>
+    <app-input #InputLogin label="Name" type="text" (value)="validateName($event)" name="Name" placeholder="Your Name"></app-input>
+    <app-input #InputLogin label="Birthday" type="date" (value)="validateBirthday($event)" name="Birthday" placeholder="Email"></app-input>
+    <app-input #InputLogin label="ID" type="text" (value)="validateLogin($event)" name="Login" placeholder="Email"></app-input>
+    <app-input #InputPassword label="Password" type="password" (value)="validatePassword($event)" name="password" placeholder="Enter password"></app-input>
+    <app-input #InputPassword label="Repeat Password" type="password" (value)="validateRepeatPassword($event)" name="Repeatpassword" placeholder="Repeat Password"></app-input>
     
     <div class="endPage">
-    <app-button-sign>Register</app-button-sign>
+    <app-button-sign (click)="login()">Register</app-button-sign>
     <a class="blue_sign_up" routerLink="">Home</a>
     </div>
     

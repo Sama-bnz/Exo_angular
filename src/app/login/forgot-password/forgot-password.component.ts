@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class ForgotPasswordComponent {
 
+  login(){
+    console.log("yo");
+  }
+
+  validateLogin(login:string){
+    console.log(login)
+  }
 }

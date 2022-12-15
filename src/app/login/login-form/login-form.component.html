@@ -1,13 +1,14 @@
 <h1 class="title_nice">Nice to see you again</h1>
 
 <form class="connexion">
-<app-input #InputLogin label="Login" type="text" name="Login" placeholder="Email or phone number"></app-input>
+<app-input #InputLogin label="Login" type="text" (value)="validateLogin($event)" name="Login" placeholder="Email or phone number"></app-input>
 
-<app-input #InputPassword label="Password" type="password" name="password" placeholder="Enter password"></app-input>
+<app-input #InputPassword label="Password" type="password" (value)="validatePassword($event)" name="password" placeholder="Enter password"></app-input>
 <app-checkbox></app-checkbox>
 </form>
 
-<app-button-sign type="submit" class="sign">Sign in</app-button-sign>
+<app-button-sign type="submit" class="sign" (click)="login()">Sign in</app-button-sign>
+<hr class="cutbar">
 <button class="sign_google"><img src="/assets/images/login/google-icon.svg" height="15px" width="15px">
     Or Sign in with Google</button>
 
@@ -17,7 +18,7 @@
 </div>
 
 
-<div class="end_page">
+<div class="footer">
     <div class="figma">
         <img src="assets/images/login/Figma.png" height="24px" width="24px" alt="Figma">
         <a href="figma" class="unicorn">

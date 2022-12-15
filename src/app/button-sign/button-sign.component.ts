@@ -1,4 +1,4 @@
-import { Component, Input, Output } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-button-sign',
@@ -7,9 +7,12 @@ import { Component, Input, Output } from '@angular/core';
 })
 export class ButtonSignComponent {
 
-
 @Input() 
 type!: string;
+
+@Output()
+click: EventEmitter<void> = new EventEmitter<void>();
+
 
 }
 

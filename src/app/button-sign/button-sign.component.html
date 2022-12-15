@@ -1,6 +1,8 @@
-<button class="sign" [type]="type" name="submit"> 
+<button class="sign" [type]="type" name="submit"  (click)="click.emit()" > 
     <ng-content></ng-content>
 </button>
+
+<!--(click)="togglePassword()"-->
 
 <!-- <button class="sign_google" type="submit" name="submit_google">Or sign with google</button> -->
 

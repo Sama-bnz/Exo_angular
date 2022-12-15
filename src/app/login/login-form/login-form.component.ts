@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login-form',
@@ -6,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./login-form.component.scss']
 })
 export class LoginFormComponent {
+
+login(){
+  console.log("bonjour");
+}
+
+validateLogin(username:string) {
+  console.log(username)
+}
+
+validatePassword(password:string){
+  console.log(password)
+}
 
 }
