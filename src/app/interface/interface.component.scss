@@ -1,6 +1,5 @@
 .interface{
     display: flex;
-    margin-left: 2em;
     margin-top: 2em;
 }
 
@@ -8,4 +7,11 @@
     width: 48px;
     height: 48px;
     margin-right: 1em;
+}
+
+@media screen and (max-width: 426px){
+
+    .interface{
+        justify-content: center;
+    }
 }
