@@ -4,6 +4,7 @@ import { ForgotPasswordComponent } from './login/forgot-password/forgot-password
 import { LoginFormComponent } from './login/login-form/login-form.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterFormComponent } from './login/register-form/register-form.component';
+import { MessagerieComponent } from './messagerie/messagerie.component';
 // localhost/
 const routes: Routes = [
 
@@ -23,9 +24,14 @@ const routes: Routes = [
       {
         path: 'forgotpassword',
         component: ForgotPasswordComponent
-      }
-    ]
-  },
+      },
+      
+    ],
+    //{
+      //path: 'messagerie',
+      //component: MessagerieComponent
+    //}
+  }
  
 ];
 
