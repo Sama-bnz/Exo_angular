@@ -16,7 +16,7 @@
 
         position: absolute;
         top: 50%;
-        left: 0;
+        left: 40%;
         transform: translate(-50%, -50%);
 
         ul li {
@@ -24,6 +24,16 @@
             cursor: pointer;
             margin: 1em auto;
         }
+
+        .carre{
+            margin-bottom: 8em;
+        }
+
+        .livre, .rouage, .fleche, .plus{
+            margin-bottom: 1.5em;
+        }
+
+        
     }
 
 

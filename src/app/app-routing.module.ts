@@ -25,13 +25,13 @@ const routes: Routes = [
         path: 'forgotpassword',
         component: ForgotPasswordComponent
       },
-      
     ],
-    //{
-      //path: 'messagerie',
-      //component: MessagerieComponent
-    //}
-  }
+  },
+    {
+      path: 'messagerie',
+      component: MessagerieComponent
+    }
+  
  
 ];
 

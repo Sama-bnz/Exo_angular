@@ -4,11 +4,22 @@
     top: 0;
     bottom: 0;
     left: 0;
+    padding-left: 8%;
     background-color: #212229;
+
+    .search{
+        background-color: black;
+    }
 
     h1{
         color: white;
         display: flex;
+        margin: 0;
+    }
+
+    img{
+        width: 50px;
+        height: 50px;
     }
 
     .typing{
@@ -19,6 +30,25 @@
     list-style: none;
     cursor: pointer;
     margin: 1em auto;
+}
+.all_message{
+    color: #C4C4C4;
+    font-size: smaller;
+}
+
+.tete_premier, .tete_second, .tete_troisieme, .tete_quatrieme, .tete_cinquieme, .tete_sixieme, .tete_septieme
+,.tete_huitieme, .tete_neuvieme{
+    display: flex;
+    margin-top: 10%;
+}
+
+.premier, .second, .troisieme, .quatrieme, .cinquieme, .sixieme, .septieme, .huitieme, .neuvieme{
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-top: -10px;
+    margin-left: 10px;
+    line-height: 8px;
 }
 
 }
