@@ -12,6 +12,7 @@ const routes: Routes = [
     // localhost// = localhost
     path: '',
     component: LoginComponent,
+   // canActivate:[MessagerieGuards]
     children: [
       {
         path:'',
