@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login-form',
@@ -7,8 +9,11 @@ import { Component } from '@angular/core';
 })
 export class LoginFormComponent {
 
+  constructor(private router: Router, private httpClient: HttpClient){}
+
 login(){
-  console.log("bonjour");
+  /*this.httpClient.post('https://dummyjson.com/auth/login', puis la valeur de mon formulaire)*/
+  this.router.navigate(['/messagerie']);
 }
 
 validateLogin(username:string) {

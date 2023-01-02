@@ -5,6 +5,7 @@ import { LoginFormComponent } from './login/login-form/login-form.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterFormComponent } from './login/register-form/register-form.component';
 import { MessagerieComponent } from './messagerie/messagerie.component';
+import { LoginGuard } from './_guards/LoginGuard';
 // localhost/
 const routes: Routes = [
 
@@ -12,11 +13,10 @@ const routes: Routes = [
     // localhost// = localhost
     path: '',
     component: LoginComponent,
-   // canActivate:[MessagerieGuards]
     children: [
       {
         path:'',
-        component: LoginFormComponent
+        component: LoginFormComponent,
       },
       {
         path: 'register',
@@ -30,7 +30,8 @@ const routes: Routes = [
   },
     {
       path: 'messagerie',
-      component: MessagerieComponent
+      component: MessagerieComponent,
+      //canActivate:[LoginGuard]
     }
   
  

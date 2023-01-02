@@ -44,7 +44,8 @@ export class RegisterFormComponent {
         Validators.required,
         Validators.minLength(4),
         Validators.maxLength(10)
-      ]], // Le '' représente la valeur par défaut 
+      ]],
+       // Le '' représente la valeur par défaut 
       email: ['',
         [
           Validators.required,
